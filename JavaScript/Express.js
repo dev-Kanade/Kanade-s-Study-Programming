@@ -7,4 +7,6 @@ const studyinfo ={
     "title":"Express.jsの勉強です^^",
     "body":"これは奏がExpres.jsの勉強をするつまらないファイルです。"
 };
-app.get("/api/studyinfo")
+app.get("/api/studyinfo",(req,res)=>{
+
+})
