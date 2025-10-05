@@ -8,5 +8,9 @@ const studyinfo ={
     "body":"これは奏がExpres.jsの勉強をするつまらないファイルです。"
 };
 app.get("/api/studyinfo",(req,res)=>{
+    res.send(studyinfo);
+});
 
-})
+app.listen(port,()=>{
+    console.log(`http://localhost:${port}`);
+});
